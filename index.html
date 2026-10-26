@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Special Story For You ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background-effects" aria-hidden="true">
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+    <div class="particles" id="particles"></div>
+    <div class="floating-hearts" id="floatingHearts"></div>
+  </div>
+
+  <main class="app-shell">
+    <header class="hero-text">
+     
+      <h1>A Special Story For You ❤️</h1>
+      <p class="hero-description">
+        Tap the book to open a birthday story made just for
+        <span class="birthday-name">Shiv kumar paswan</span>.
+      </p>
+    </header>
+
+    <section class="book-stage">
+      <div class="book" id="book">
+        <div class="book-shadow" aria-hidden="true"></div>
+
+        <!-- COVER -->
+        <article class="page cover-page" data-page="0" role="button" tabindex="0" aria-label="Open the storybook">
+          <div class="page-content cover-content">
+            <div class="cover-ornament top"></div>
+            <div class="cover-ornament bottom"></div>
+            <div class="cover-badge">Birthday Edition</div>
+            <h2>A Special Story For You ❤️</h2>
+            <p class="cover-subtitle">Happy Birthday 🎂</p>
+            <p class="cover-name">For <span class="birthday-name">Shiv kumar paswan</span></p>
+
+            <div class="cake cover-cake" data-candles="3" aria-hidden="true"></div>
+
+            <p class="cover-tip">💫 One little tap, countless beautiful feelings… 💗🌷</p>
+          </div>
+        </article>
+
+        <!-- PAGE 1 -->
+        <article class="page" data-page="1">
+          <div class="page-content">
+            <span class="page-number">01</span>
+            <div class="page-header">
+              <p class="chapter">Welcome</p>
+              <h2>Today Is Your Special Day ❤️</h2>
+            </div>
+            <div class="split-layout">
+              <div class="text-stack">
+                <p class="message-text">
+                  Dear <span class="birthday-name">Shiv kumar paswan</span>, today the world feels a little softer,
+                  brighter, and more beautiful because it is celebrating you. This little book was made to
+                  remind you how loved, admired, and cherished you truly are.
+                </p>
+                <p class="message-text">
+                  May every smile you share come back to you as joy, and may this birthday bring warmth to
+                  your heart from the very first moment.
+                </p>
+              </div>
+              <div class="birthday-illustration">
+                <figure class="gilded-frame">
+                  <span class="gf-glow" aria-hidden="true"></span>
+                  <div class="gf-outer">
+                    <div class="gf-mat">
+                      <div class="gf-photo"><img src="images/photo4.jpg" alt="A special birthday photo" loading="lazy" /></div>
+                    </div>
+                    <span class="gf-corner tl" aria-hidden="true">❦</span>
+                    <span class="gf-corner tr" aria-hidden="true">❦</span>
+                    <span class="gf-corner bl" aria-hidden="true">❦</span>
+                    <span class="gf-corner br" aria-hidden="true">❦</span>
+                  </div>
+                  <span class="gf-heart" aria-hidden="true">❤️</span>
+                  <figcaption class="gf-ribbon">Shivo Darling ✨</figcaption>
+                </figure>
+                <div class="balloons" aria-hidden="true">
+                  <span class="balloon pink"></span>
+                  <span class="balloon cream"></span>
+                  <span class="balloon red"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- PAGE 2 -->
+        <article class="page" data-page="2">
+          <div class="page-content">
+            <span class="page-number">02</span>
+            <div class="page-header">
+              <p class="chapter">Birthday Message</p>
+              <h2>Words From My Heart</h2>
+            </div>
+            <blockquote class="romantic-quote">
+              “May your smile always stay this beautiful, your dreams become reality, and every new chapter of your life be filled with happiness.”
+            </blockquote>
+            <p class="message-text large">
+              <span class="birthday-name">Shristi</span>, you make ordinary moments feel magical. Your laughter is a melody,
+              your kindness is a light, and your presence turns life into something worth celebrating every single day.
+            </p>
+            <p class="message-text">
+              On your birthday, I just want you to feel deeply loved. May your heart stay full, your path stay bright,
+              and your life continue to bloom with peace, adventure, romance, and beautiful surprises.
+            </p>
+            <div class="signature-block">
+              <span>With love,</span>
+              <strong>Deepak Sah❤️</strong>
+            </div>
+          </div>
+        </article>
+
+        <!-- PAGE 3 -->
+        <article class="page" data-page="3">
+          <div class="page-content">
+            <span class="page-number">03</span>
+            <div class="page-header">
+              <p class="chapter">Memories</p>
+              <h2>Little Frames of Love</h2>
+            </div>
+            <div class="polaroid-grid">
+              <figure class="polaroid rotate-left">
+                <div class="photo-frame"><img src="images/photo1.jpg" alt="A beautiful moment together" loading="lazy" /></div>
+                <figcaption>Beautiful Moments</figcaption>
+              </figure>
+              <figure class="polaroid rotate-right">
+                <div class="photo-frame"><img src="images/photo2.jpg" alt="A sweet memory together" loading="lazy" /></div>
+                <figcaption>Sweet Memories</figcaption>
+              </figure>
+              <figure class="polaroid rotate-slight">
+                <div class="photo-frame"><img src="images/photo3.jpg" alt="A moment worth remembering" loading="lazy" /></div>
+                <figcaption>Worth Remembering</figcaption>
+              </figure>
+            </div>
+          </div>
+        </article>
+
+        <!-- PAGE 4: PORTRAIT -->
+        <article class="page" data-page="4">
+          <div class="page-content center-content portrait-content">
+            <span class="page-number">04</span>
+            <div class="page-header">
+              <p class="chapter">The Birthday Star</p>
+              <h2>Our Birthday Boy 🎉</h2>
+            </div>
+            <figure class="portrait-polaroid">
+              <div class="portrait-frame"><img src="images/photo5.jpg" alt="The birthday boy" loading="lazy" /></div>
+              <figcaption><span class="birthday-name">Shiv Kumar Paswan</span></figcaption>
+            </figure>
+            <p class="portrait-caption">Smile bright, today the spotlight is all yours. ❤️</p>
+          </div>
+        </article>
+
+        <!-- PAGE 5: CALENDAR -->
+        <article class="page" data-page="5">
+          <div class="page-content">
+            <span class="page-number">05</span>
+            <div class="page-header">
+              <p class="chapter">Save The Date</p>
+              <h2>Kartik 12, 2083 🗓️</h2>
+            </div>
+            <div class="calendar" id="calendar" aria-label="Kartik 2083 calendar">
+              <div class="calendar-head">
+                <span class="cal-month">कार्तिक · Kartik 2083</span>
+                <span class="cal-range">Oct 18 – Nov 16, 2026</span>
+              </div>
+              <div class="calendar-grid" id="calendarGrid"></div>
+            </div>
+            <p class="calendar-note">
+              ❤️ Kartik 12 (Thursday, October 29, 2026) is <span class="birthday-name">Shristi</span>’s birthday, the day the whole world gets to celebrate you.
+            </p>
+          </div>
+        </article>
+
+        <!-- PAGE 6 -->
+        <article class="page" data-page="6">
+          <div class="page-content center-content">
+            <span class="page-number">06</span>
+            <div class="page-header">
+              <p class="chapter">Birthday Cake · Kartik 12</p>
+              <h2>Make a Wish 🎂</h2>
+            </div>
+            <div class="interactive-cake-area">
+              <div class="wish-message hidden" id="wishMessage" role="status">Your wish is on its way… ✨❤️</div>
+
+              <div class="cake giant-cake" id="birthdayCake" data-candles="5" aria-hidden="true"></div>
+
+              <div class="cake-actions">
+                <button class="btn gold" id="wishBtn" type="button">Make a Wish ✨</button>
+                <p class="cake-note" id="cakeNote">Your wish date is Kartik 12. Close your eyes, think of something beautiful, then blow out the candles.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- PAGE 7 -->
+        <article class="page" data-page="7">
+          <div class="page-content center-content">
+            <span class="page-number">07</span>
+            <div class="page-header">
+              <p class="chapter">Final Wish</p>
+              <h2>For <span class="birthday-name">Shristi</span></h2>
+            </div>
+            <div class="final-message-box">
+              <p class="final-big-message">
+                Happy Birthday ❤️🎂<br />
+                May this year bring you endless happiness, beautiful memories, success, and everything your heart wishes for.
+              </p>
+              <button class="btn surprise" id="surpriseBtn" type="button">One More Surprise ❤️</button>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <nav class="navigation-panel" aria-label="Storybook navigation">
+        <button class="btn nav-btn" id="prevBtn" type="button" disabled>❮ Previous</button>
+        <div class="page-indicator">
+          <span id="currentPageText">Cover</span>
+          <div class="dots" id="dots" aria-hidden="true"></div>
+        </div>
+        <button class="btn nav-btn" id="nextBtn" type="button">Open ❯</button>
+      </nav>
+    </section>
+  </main>
+
+  <div class="celebration-layer" id="celebrationLayer" role="dialog" aria-modal="true" aria-label="Birthday surprise">
+    <canvas id="celebrationCanvas"></canvas>
+    <div class="celebration-content">
+      <div class="cake celebration-cake" data-candles="3" aria-hidden="true"></div>
+      <h2 id="celebrationTitle">Happy Birthday, Shristi ❤️</h2>
+      <p>Wishing you a lifetime of love, laughter, sweet memories, and magical moments.</p>
+      <button class="btn close-overlay" id="closeOverlayBtn" type="button">Close Surprise</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
